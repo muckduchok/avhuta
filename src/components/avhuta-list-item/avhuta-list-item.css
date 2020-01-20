@@ -1,0 +1,23 @@
+.avhuta-list-item {
+    font-size: 1.25rem;
+}
+.avhuta-list-item button {
+    width: 35px;
+    margin: 3px;
+}
+
+.avhuta-list-item-label {
+    margin-left: 1.25rem;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.avhuta-list-item.done .avhuta-list-item-label {
+    text-decoration: line-through ;
+}
+
+.avhuta-list-item.important .avhuta-list-item-label {
+    font-weight: bold;
+    color: steelblue;
+}
